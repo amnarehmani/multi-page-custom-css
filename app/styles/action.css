@@ -1,0 +1,80 @@
+.cta {
+    margin: 100px auto;
+    width: 80%;
+    padding: 50px 0;
+    background-image: linear-gradient(rgba(4, 9, 30, 0.7), rgba(4, 9, 30, 0.7)),
+      url(/images/banner.avif);
+    background-position: center bottom;
+    background-size: cover;
+    background-attachment: fixed;
+    position: relative;
+    text-align: center;
+    color: white;
+    border-radius: 8px; 
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5); 
+  }
+  
+  .cta h1 {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    line-height: 1.4;
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .cta a {
+    padding: 10px 34px;
+    font-size: 16px;
+    display: inline-block;
+    background-color: transparent;
+    color: white;
+    border: 1px solid white;
+    cursor: pointer;
+    transition: background-color 1s, border-color 1s;
+    text-decoration: none;
+  }
+  
+  .cta a:hover {
+    background-color: #1f3a62;
+    color: white;
+    border: 1px solid #1f3a62;
+  }
+  
+  @media (max-width: 768px) {
+    .cta h1 {
+      font-size: 28px;
+      margin: 0 20px;
+    }
+  
+    .cta a {
+      font-size: 16px;
+      padding: 12px 30px;
+    }
+  }
+  @media (max-width: 768px) {
+    .cta h1 {
+      font-size: 28px;
+      margin: 0 20px;
+    }
+  
+    .cta a {
+      font-size: 14px;
+      padding: 12px 25px;
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .cta h1 {
+      font-size: 24px;
+      margin: 0 15px;
+      margin-bottom: 20px;
+    }
+  
+    .cta a {
+      font-size: 10px;
+      padding: 10px 20px;
+    }
+  }
+  
